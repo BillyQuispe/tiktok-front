@@ -146,7 +146,7 @@ function App() {
           console.log(`Video ID: ${videoId}, Time watched: ${elapsedTime.toFixed(2)} seconds`);
 
           // Send the data to the API
-          fetch('https://161.132.49.57:5000/api/video-watch-time', {
+          fetch('https://161.132.49.57/api/video-watch-time', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
